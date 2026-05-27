@@ -1,0 +1,115 @@
+/* ── Dash 4 dcc.Dropdown dark theme ──────────────────────────────────────── */
+
+button#preset-dropdown {
+    background-color: transparent !important;
+    border: 1px solid #2d3748 !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    margin-bottom: 16px !important;
+    padding: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+button#preset-dropdown:hover {
+    border-color: #4a5568 !important;
+}
+
+button#preset-dropdown[aria-expanded="true"] {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-color: #4a5568 !important;
+    border-bottom-color: #4a5568 !important;
+}
+
+button#preset-dropdown .dash-dropdown-grid-container {
+    background-color: transparent !important;
+    min-height: 34px !important;
+    padding: 0 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+button#preset-dropdown .dash-dropdown-value-item span {
+    color: #e2e8f0 !important;
+    font-size: 11px !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+button#preset-dropdown .dash-dropdown-trigger-icon {
+    color: #94a3b8 !important;
+    flex-shrink: 0 !important;
+}
+
+/* ── Radix portal menu ── */
+.dash-dropdown-content {
+    background-color: #161b22 !important;
+    border: 1px solid #4a5568 !important;
+    border-top: none !important;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7) !important;
+    overflow: visible !important;
+    padding: 0 !important;
+}
+
+.dash-dropdown-content .dash-options-list {
+    background-color: #161b22 !important;
+    padding: 3px !important;
+    overflow-y: auto !important;
+    max-height: 200px !important;
+}
+
+/* Dark scrollbar */
+.dash-dropdown-content .dash-options-list::-webkit-scrollbar {
+    width: 4px !important;
+}
+.dash-dropdown-content .dash-options-list::-webkit-scrollbar-track {
+    background: #0d1117 !important;
+    border-radius: 2px !important;
+}
+.dash-dropdown-content .dash-options-list::-webkit-scrollbar-thumb {
+    background: #2d3748 !important;
+    border-radius: 2px !important;
+}
+.dash-dropdown-content .dash-options-list::-webkit-scrollbar-thumb:hover {
+    background: #4a5568 !important;
+}
+
+/* Options */
+label.dash-options-list-option {
+    background-color: transparent !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 7px 10px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    margin: 1px 0 !important;
+}
+
+label.dash-options-list-option:hover {
+    background-color: #1e2432 !important;
+}
+
+.dash-options-list-option-text span {
+    color: #94a3b8 !important;
+    font-size: 11px !important;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+}
+
+label.dash-options-list-option:hover .dash-options-list-option-text span {
+    color: #e2e8f0 !important;
+}
+
+label.dash-options-list-option.selected .dash-options-list-option-text span {
+    color: #f87171 !important;
+}
+
+label.dash-options-list-option.selected {
+    background-color: transparent !important;
+}
+
+.dash-options-list-option-wrapper {
+    display: none !important;
+}

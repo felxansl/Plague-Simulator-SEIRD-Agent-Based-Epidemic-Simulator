@@ -108,3 +108,8 @@ Susceptible
 | Kharaa Bacterium | Subnautica |
 
 ---
+
+## Credits
+
+Created by **Felix Loaiza**  
+© 2026 All rights reserved.
