@@ -13,6 +13,7 @@ Run with:
     python app.py
 """
 
+import os
 import numpy as np
 import plotly.graph_objects as go
 
@@ -904,4 +905,5 @@ def toggle_modal(n_agents, n_curve, n_close, fig_agents, fig_curve):
 
 
 if __name__ == "__main__":
-    app.run(debug=False, port=8050)
+    port = int(os.environ.get("PORT", 8050))
+    app.run(host="0.0.0.0", debug=False, port=port)
