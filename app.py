@@ -1,5 +1,5 @@
 """
-Plague Simulator — Dash App (SEIRD model)
+Plague Simulator Dash App (SEIRD model)
 ==========================================
 dcc.Interval at 33 ms (~30 FPS). Only figures update each tick.
 engine.py upgraded from SIRD to SEIRD (Exposed incubation state).
@@ -800,7 +800,7 @@ def tick(n, state, speed):
 
     if eng.is_over():
         banner_txt = (
-            f"✅  Epidemic over — Day {counts['day']}  |  "
+            f"Epidemic over — Day {counts['day']}  |  "
             f"Peak: {eng.peak_infected()}  |  "
             f"Deaths: {eng.total_deaths()}  |  "
             f"Recovered: {counts['R']}"
