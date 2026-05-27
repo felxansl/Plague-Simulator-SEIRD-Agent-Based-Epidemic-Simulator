@@ -1,4 +1,5 @@
 # 🦠 Plague Simulator
+<img width="2559" height="1315" alt="Captura de pantalla 2026-05-27 002110" src="https://github.com/user-attachments/assets/2f9798ad-17fd-41b9-9977-d0f34ea703b2" />
 
 An agent-based **SEIRD** epidemic simulator built with **Dash** and **NumPy**.
 
